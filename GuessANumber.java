@@ -17,8 +17,11 @@ public class GuessANumber{
 	    	i=i+1;
 	    }
 	    while(randomnumber!=Number);
-	    if(randomnumber==Number) {
-	    	System.out.println("Congratulations !"+userName+" finally you entered currect Number of attemts "+i);
+	   if(randomnumber==Number) {
+	    	System.out.println("Congratulations !"+userName+" finally you entered correct, Number of attempts "+i);
+	    }
+	    if(i==1) {
+	    	System.out.println("Your great and you have lot luck");
 	    }
 	    System.out.println("the final Guess and Random Number is "+randomnumber);
 
